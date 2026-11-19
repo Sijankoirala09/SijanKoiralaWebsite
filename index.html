@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sijan Koirala — Graphic Designer</title>
+  
+  <!-- Meta & SEO -->
+  <meta name="description" content="Hey, I'm Sijan, a graphic designer from Nepal crafting brand identities, editorial design, and refined visual experiences with Apple-inspired precision.">
+  <meta name="author" content="Sijan Koirala">
+  <meta property="og:title" content="Sijan Koirala — Graphic Designer from Nepal">
+  <meta property="og:description" content="Hey, I'm Sijan, a graphic designer from Nepal crafting brand identities and refined visual experiences.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Apple Fonts / Inter Fallback -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Apple Glows -->
+  <div class="ambient-glow" aria-hidden="true">
+    <div class="glow-spot-1"></div>
+    <div class="glow-spot-2"></div>
+  </div>
+
+  <!-- Mouse Spotlight Glow -->
+  <div class="cursor-spotlight" id="cursorSpotlight" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="header" id="header">
+    <nav class="nav-pill" aria-label="Main Navigation">
+      <a href="#hero" class="brand" aria-label="Sijan Koirala Home">
+        <div class="brand-monogram">SK</div>
+        <div>
+          <span class="brand-text">Sijan Koirala</span>
+          <span class="brand-role">· Designer</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#work">Selected Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="nav-cta-btn">
+        <span>Let's Talk</span>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2.5 9.5L9.5 2.5M9.5 2.5H4M9.5 2.5V8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+
+      <!-- Mobile Menu Button -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#work" class="mobile-nav-link">Selected Work</a>
+    <a href="#about" class="mobile-nav-link">About & Philosophy</a>
+    <a href="#services" class="mobile-nav-link">Disciplines & Services</a>
+    <a href="#contact" class="mobile-nav-link">Contact</a>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero" id="hero">
+      <div class="container">
+        
+        <!-- Live Status Pill -->
+        <div class="status-badge reveal">
+          <span class="pulse-dot"></span>
+          <span>Available for Projects · Based in Nepal 🇳🇵</span>
+        </div>
+
+        <!-- Signature Headline -->
+        <h1 class="hero-title reveal">
+          Hey, I'm <span class="gradient-text">Sijan</span>.
+        </h1>
+
+        <!-- Subtitle matching user's core statement -->
+        <p class="hero-subtitle reveal">
+          A graphic designer from Nepal.
+        </p>
+
+        <!-- Refined Apple-style mission statement -->
+        <p class="hero-description reveal">
+          Obsessed with typography, minimalism, and timeless identity systems. I craft visual languages, brand experiences, and digital design with Apple-level care and restraint.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-actions reveal">
+          <a href="#work" class="btn btn-primary">
+            <span>Explore Works</span>
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="8" y1="2" x2="8" y2="14"></line>
+              <polyline points="3 9 8 14 13 9"></polyline>
+            </svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>Get in Touch</span>
+          </a>
+        </div>
+
+        <!-- Discipline Strip -->
+        <div class="disciplines-strip reveal">
+          <span class="discipline-tag">Brand Identity</span>
+          <span class="discipline-tag">Visual Systems</span>
+          <span class="discipline-tag">Typography</span>
+          <span class="discipline-tag">Editorial & Print</span>
+          <span class="discipline-tag">Packaging Design</span>
+          <span class="discipline-tag">Art Direction</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SELECTED WORK SECTION
+         ========================================================================== -->
+    <section class="section" id="work">
+      <div class="container">
+        
+        <div class="section-header text-center reveal">
+          <span class="section-label">Portfolio</span>
+          <h2 class="section-title">Selected Works</h2>
+          <p class="section-description">
+            A curated showcase of branding systems, editorial concepts, and visual explorations designed with intention.
+          </p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="work-filter-bar reveal">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="branding">Branding</button>
+          <button class="filter-btn" data-filter="editorial">Editorial</button>
+          <button class="filter-btn" data-filter="packaging">Packaging</button>
+          <button class="filter-btn" data-filter="visual">3D & Visual</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="work-grid" id="projectsGrid">
+
+          <!-- Project 1 -->
+          <article class="project-card reveal" data-category="branding" data-modal="p1">
+            <div class="project-image-wrapper">
+              <img src="assets/projects/project-1.svg" alt="Luminary Architects Brand Identity" loading="lazy">
+              <span class="project-overlay-badge">Brand System</span>
+            </div>
+            <div class="project-info">
+              <span class="project-category">Identity & Typography</span>
+              <h3 class="project-title">
+                Luminary Architects
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </h3>
+              <p class="project-desc">Complete corporate visual identity, custom geometric monogram, and luxury Swiss grid guidelines.</p>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reveal" data-category="editorial" data-modal="p2">
+            <div class="project-image-wrapper">
+              <img src="assets/projects/project-2.svg" alt="Himalaya Editorial Poster Series" loading="lazy">
+              <span class="project-overlay-badge">Exhibition</span>
+            </div>
+            <div class="project-info">
+              <span class="project-category">Editorial & Print</span>
+              <h3 class="project-title">
+                Himalaya Poster Series
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </h3>
+              <p class="project-desc">A celebration of Nepalese topography translated into brutalist Swiss typographic poster compositions.</p>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card reveal" data-category="visual" data-modal="p3">
+            <div class="project-image-wrapper">
+              <img src="assets/projects/project-3.svg" alt="Aura Spatial Audio Labs" loading="lazy">
+              <span class="project-overlay-badge">Key Visuals</span>
+            </div>
+            <div class="project-info">
+              <span class="project-category">Sound Identity & Motion</span>
+              <h3 class="project-title">
+                Aura Audio Labs
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </h3>
+              <p class="project-desc">Iridescent audio wave geometry and visual branding tailored for next-generation spatial sound hardware.</p>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card reveal" data-category="packaging" data-modal="p4">
+            <div class="project-image-wrapper">
+              <img src="assets/projects/project-4.svg" alt="Kavya Botanicals Packaging Design" loading="lazy">
+              <span class="project-overlay-badge">Packaging</span>
+            </div>
+            <div class="project-info">
+              <span class="project-category">Packaging & Art Direction</span>
+              <h3 class="project-title">
+                Kāvya Botanicals
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </h3>
+              <p class="project-desc">Minimalist organic apothecary packaging with matte dark-glass bottles and metallic foil finishes.</p>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card reveal" data-category="visual" data-modal="p5">
+            <div class="project-image-wrapper">
+              <img src="assets/projects/project-5.svg" alt="Nexus 3D Art Direction" loading="lazy">
+              <span class="project-overlay-badge">3D Direction</span>
+            </div>
+            <div class="project-info">
+              <span class="project-category">3D Exploration</span>
+              <h3 class="project-title">
+                Nexus 3D Visuals
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </h3>
+              <p class="project-desc">Dimensional isometric render experiments examining lighting, refractive glass shaders, and form.</p>
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project-card reveal" data-category="branding" data-modal="p6">
+            <div class="project-image-wrapper">
+              <img src="assets/projects/project-6.svg" alt="Monolith Archive Exhibition" loading="lazy">
+              <span class="project-overlay-badge">Archive</span>
+            </div>
+            <div class="project-info">
+              <span class="project-category">Branding & Editorial</span>
+              <h3 class="project-title">
+                Monolith Archive
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </h3>
+              <p class="project-desc">Architectural monograph catalogue and brand identity celebrating brutalist forms and monochrome palettes.</p>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT & PHILOSOPHY (APPLE BENTO GRID)
+         ========================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <span class="section-label">Background</span>
+          <h2 class="section-title">Rooted in Nepal. Designing for the World.</h2>
+          <p class="section-description">
+            I believe that great design is quiet, confident, and meticulously executed.
+          </p>
+        </div>
+
+        <div class="about-bento">
+
+          <!-- Card 1: Main Story -->
+          <div class="bento-card bento-col-8 reveal">
+            <div class="bento-card-header">
+              <div class="bento-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <span class="bento-tag">Perspective</span>
+            </div>
+            <h3 class="bento-title">Crafting visual clarity out of complex ideas.</h3>
+            <p class="bento-text">
+              I'm Sijan Koirala, an independent graphic designer based in Nepal. Growing up surrounded by Nepal's vivid culture, ancient architectural geometry, and raw natural beauty gave me an organic appreciation for form and balance.
+            </p>
+            <p class="bento-text" style="margin-top: 12px;">
+              Coupled with modern Swiss typography and Apple's dedication to minimalism, I work with ambitious brands, creators, and studios worldwide to build identities that command attention through subtlety.
+            </p>
+
+            <div class="stats-grid">
+              <div class="stat-item">
+                <div class="stat-number">5+</div>
+                <div class="stat-label">Years of Craft</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">40+</div>
+                <div class="stat-label">Projects Designed</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Dedication</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Apple Design Quote -->
+          <div class="bento-card bento-col-4 reveal">
+            <div class="bento-card-header">
+              <div class="bento-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 20h9"></path>
+                  <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                </svg>
+              </div>
+              <span class="bento-tag">Ethos</span>
+            </div>
+            <blockquote class="quote-highlight">
+              “Simplicity is not the lack of clutter, that's a consequence of simplicity. Simplicity somehow essentially describes the purpose and place of an object.”
+            </blockquote>
+            <p class="quote-author">— Jony Ive / Apple Design Philosophy</p>
+          </div>
+
+          <!-- Card 3: Creative Toolkit -->
+          <div class="bento-card bento-col-6 reveal">
+            <div class="bento-card-header">
+              <div class="bento-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <span class="bento-tag">Toolkit</span>
+            </div>
+            <h3 class="bento-title">Tools of Execution</h3>
+            <p class="bento-text">Proficient across industry-standard creative pipelines:</p>
+            <div class="tools-pills">
+              <span class="tool-chip">Adobe Illustrator</span>
+              <span class="tool-chip">Adobe Photoshop</span>
+              <span class="tool-chip">Adobe InDesign</span>
+              <span class="tool-chip">Figma</span>
+              <span class="tool-chip">Blender / 3D</span>
+              <span class="tool-chip">After Effects</span>
+              <span class="tool-chip">Vector Mastery</span>
+              <span class="tool-chip">Prepress & Print</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Location & Availability -->
+          <div class="bento-card bento-col-6 reveal">
+            <div class="bento-card-header">
+              <div class="bento-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <span class="bento-tag">Availability</span>
+            </div>
+            <h3 class="bento-title">Kathmandu, Nepal · Remote Worldwide</h3>
+            <p class="bento-text">
+              Collaborating seamlessly across time zones via Slack, Figma, and Zoom. Currently accepting new branding inquiries, freelance commissions, and long-term contracts.
+            </p>
+            <div style="margin-top: 24px;">
+              <a href="#contact" class="btn btn-secondary" style="width: auto;">
+                <span>Start a Project</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SERVICES SECTION
+         ========================================================================== -->
+    <section class="section" id="services">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <span class="section-label">Capabilities</span>
+          <h2 class="section-title">What I Bring to the Table</h2>
+          <p class="section-description">
+            End-to-end design solutions that bridge artistic intuition with commercial precision.
+          </p>
+        </div>
+
+        <div class="services-list">
+
+          <!-- Service 1 -->
+          <div class="service-card reveal">
+            <div class="service-left">
+              <span class="service-index">01</span>
+              <div>
+                <h3 class="service-title">Brand & Visual Identity</h3>
+                <p class="service-sub">Distinctive emblems, logotypes, color palettes, and comprehensive guidelines.</p>
+              </div>
+            </div>
+            <div class="service-deliverables">
+              <span class="deliverable-badge">Logo Systems</span>
+              <span class="deliverable-badge">Brand Books</span>
+              <span class="deliverable-badge">Typography</span>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card reveal">
+            <div class="service-left">
+              <span class="service-index">02</span>
+              <div>
+                <h3 class="service-title">Editorial & Print Media</h3>
+                <p class="service-sub">Exquisite magazines, books, exhibition posters, and publication layouts.</p>
+              </div>
+            </div>
+            <div class="service-deliverables">
+              <span class="deliverable-badge">Poster Systems</span>
+              <span class="deliverable-badge">Catalogues</span>
+              <span class="deliverable-badge">Stationery</span>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card reveal">
+            <div class="service-left">
+              <span class="service-index">03</span>
+              <div>
+                <h3 class="service-title">Packaging & Product Styling</h3>
+                <p class="service-sub">Tangible packaging architecture, die-cuts, labels, and tactile unboxing design.</p>
+              </div>
+            </div>
+            <div class="service-deliverables">
+              <span class="deliverable-badge">Box Packaging</span>
+              <span class="deliverable-badge">Labels</span>
+              <span class="deliverable-badge">Foil & Finishes</span>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card reveal">
+            <div class="service-left">
+              <span class="service-index">04</span>
+              <div>
+                <h3 class="service-title">Digital Art Direction & 3D</h3>
+                <p class="service-sub">Key visuals, 3D abstract models, campaign imagery, and social design kits.</p>
+              </div>
+            </div>
+            <div class="service-deliverables">
+              <span class="deliverable-badge">Key Visuals</span>
+              <span class="deliverable-badge">3D Mockups</span>
+              <span class="deliverable-badge">Social Assets</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT SECTION
+         ========================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        
+        <div class="contact-box reveal">
+          <span class="section-label" style="color: #ffffff;">Let's Create</span>
+          <h2 class="contact-title">
+            Have a project in mind?<br>
+            <span class="gradient-text">Let's make something iconic.</span>
+          </h2>
+          <p class="contact-desc">
+            Whether you need a fresh brand identity, editorial design, or a collaborative partner for your next venture, my inbox is always open.
+          </p>
+
+          <!-- Email Copy & Mailto -->
+          <div class="contact-actions">
+            <!-- Click to Copy Email -->
+            <button class="copy-email-btn" id="copyEmailBtn" data-email="sijankoirala.design@gmail.com">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>sijankoirala.design@gmail.com</span>
+            </button>
+
+            <!-- Direct Mail Link -->
+            <a href="mailto:sijankoirala.design@gmail.com?subject=Project%20Inquiry%20for%20Sijan%20Koirala" class="btn btn-secondary">
+              <span>Send Email Directly</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="socials-row">
+            <a href="https://behance.net" target="_blank" rel="noopener noreferrer" class="social-pill">
+              <span>Behance</span>
+            </a>
+            <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" class="social-pill">
+              <span>Dribbble</span>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-pill">
+              <span>Instagram</span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-pill">
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-pill">
+              <span>GitHub</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-copy">
+          © <span id="currentYear">2026</span> Sijan Koirala. All rights reserved. Made in Nepal.
+        </p>
+
+        <div class="footer-badge">
+          <span>Designed with Apple-inspired precision</span>
+        </div>
+
+        <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+          <span>Back to Top</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       PROJECT DETAIL MODAL (LIGHTBOX)
+       ========================================================================== -->
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true" role="dialog">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <img src="" alt="Project Preview" class="modal-image" id="modalImage">
+
+      <div class="modal-body">
+        <div class="modal-meta">
+          <span class="modal-category" id="modalCategory">Brand System</span>
+          <span class="modal-year" id="modalYear">2026</span>
+        </div>
+        <h3 class="modal-title" id="modalTitle">Project Title</h3>
+        <p class="modal-text" id="modalText">Detailed description about this design project...</p>
+        <div class="modal-tags" id="modalTags">
+          <span class="modal-tag">Identity</span>
+          <span class="modal-tag">Typography</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toastNotification" role="alert" aria-live="polite">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#30d158" stroke-width="2.5">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toastMessage">Email copied to clipboard!</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <radialGradient id="p1-glow" cx="60%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#3b3b4f" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0a0a0c" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="p1-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="p1-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#d4d4d8"/>
+      <stop offset="100%" stop-color="#71717a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="#0d0d11"/>
+  <rect width="800" height="600" fill="url(#p1-glow)"/>
+
+  <!-- Subtle Swiss Grid Lines -->
+  <g stroke="rgba(255,255,255,0.05)" stroke-width="1">
+    <line x1="80" y1="0" x2="80" y2="600"/>
+    <line x1="720" y1="0" x2="720" y2="600"/>
+    <line x1="0" y1="80" x2="800" y2="80"/>
+    <line x1="0" y1="520" x2="800" y2="520"/>
+    <circle cx="400" cy="300" r="160" stroke="rgba(255,255,255,0.04)" fill="none"/>
+    <circle cx="400" cy="300" r="240" stroke="rgba(255,255,255,0.02)" fill="none"/>
+  </g>
+
+  <!-- Central Emblem / Brand Symbol -->
+  <g transform="translate(400, 270)">
+    <circle cx="0" cy="0" r="70" fill="url(#p1-card)" stroke="rgba(255,255,255,0.18)" stroke-width="1.5"/>
+    <!-- Modern geometric logo mark -->
+    <path d="M -28 -28 L 28 -28 L 0 32 Z" fill="none" stroke="url(#p1-gold)" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="0" cy="-6" r="12" fill="url(#p1-gold)"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="rgba(255,255,255,0.15)" stroke-dasharray="3 4"/>
+  </g>
+
+  <!-- Typography Details -->
+  <text x="400" y="390" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="22" font-weight="600" fill="#ffffff" letter-spacing="4" text-anchor="middle">LUMINARY ARCHITECTS</text>
+  <text x="400" y="420" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12" font-weight="400" fill="#86868b" letter-spacing="2" text-anchor="middle">BRAND IDENTITY SYSTEM · 2026</text>
+
+  <!-- Corner Meta Details -->
+  <text x="80" y="555" font-family="-apple-system, sans-serif" font-size="11" fill="#71717a" letter-spacing="1">PROJECT / 01</text>
+  <text x="720" y="555" font-family="-apple-system, sans-serif" font-size="11" fill="#71717a" letter-spacing="1" text-anchor="end">SIJAN KOIRALA DESIGN</text>
+</svg>

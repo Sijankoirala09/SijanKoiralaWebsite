@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="p2-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181822"/>
+      <stop offset="100%" stop-color="#0a0a0d"/>
+    </linearGradient>
+    <linearGradient id="p2-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3b30"/>
+      <stop offset="100%" stop-color="#ff9500"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#p2-grad)"/>
+
+  <!-- Minimal mountain contours -->
+  <path d="M 100 480 L 260 260 L 380 390 L 520 200 L 700 480 Z" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <path d="M 220 480 L 360 300 L 440 380 L 590 230 L 740 480 Z" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- Dramatic typography -->
+  <text x="120" y="210" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="76" font-weight="900" fill="#ffffff" letter-spacing="-2">HIMALAYA</text>
+  <text x="120" y="270" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="28" font-weight="300" fill="#86868b" letter-spacing="8">EDITORIAL & POSTER</text>
+
+  <!-- Accent graphic pill -->
+  <rect x="120" y="300" width="130" height="28" rx="14" fill="rgba(255,59,48,0.15)" stroke="rgba(255,59,48,0.4)" stroke-width="1"/>
+  <text x="185" y="318" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#ff453a" text-anchor="middle" letter-spacing="1">NEPAL SERIES</text>
+
+  <!-- Editorial column lines -->
+  <line x1="120" y1="360" x2="680" y2="360" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="120" y="395" font-family="-apple-system, sans-serif" font-size="13" fill="#a1a1a6" letter-spacing="0.5">High-altitude typography and minimalist Swiss-grid layout.</text>
+  <text x="120" y="420" font-family="-apple-system, sans-serif" font-size="12" fill="#636366">Exhibited at Kathmandu Contemporary Art Week.</text>
+
+  <!-- Corner details -->
+  <text x="120" y="520" font-family="-apple-system, sans-serif" font-size="11" fill="#71717a">TYPE EXPERIMENT / POSTER 04</text>
+  <text x="680" y="520" font-family="-apple-system, sans-serif" font-size="11" fill="#71717a" text-anchor="end">2026 EDITION</text>
+</svg>
