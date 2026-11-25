@@ -7,6 +7,10 @@ assert(
   "The production page must contain prerendered content.",
 );
 assert(!html.includes("<!--app-html-->"), "Prerendering must finish.");
+assert(
+  html.includes("<!--email_off-->") && html.includes("<!--/email_off-->"),
+  "Cloudflare must leave the prerendered email markup intact for hydration.",
+);
 assert.equal(
   (await readFile("dist/CNAME", "utf8")).trim(),
   "sijankoirala.com.np",

@@ -39,6 +39,8 @@ The repository's **Settings → Pages → Source** must be **GitHub Actions**. K
 
 The domain is currently behind Cloudflare. Keep the existing DNS routing and TLS configuration. This build needs no DNS changes. When diagnosing stale content, compare the latest successful Actions deployment with the live page before clearing the relevant Cloudflare cache. Do not switch back to branch deployment: the React source needs the build step.
 
+Prerendered content is wrapped in Cloudflare's `email_off` comments. Preserve these markers: they prevent Cloudflare's email protection from rewriting the server HTML before React hydrates it.
+
 ## Content and design
 
 - `src/content.js`: project concepts, service descriptions, and social links.
