@@ -481,7 +481,7 @@ function App() {
               <i className="status-dot" /> OPEN FOR COLLABORATIONS
             </span>
             <span>
-              KATHMANDU, NEPAL <span className="small-star">✳</span>{" "}
+              Biratnagar, NEPAL <span className="small-star">✳</span>{" "}
               <NepalClock />
             </span>
           </div>
@@ -661,7 +661,7 @@ function App() {
               </h2>
               <p className="about-lead">
                 Hi, I’m Sijan. A website developer & frontend engineer, based in
-                Kathmandu, Nepal.
+                Biratnagar, Nepal.
               </p>
               <p>
                 I like the space where design meets development. A layout that
