@@ -1,6 +1,6 @@
 import { createServer } from "vite";
 import { renderToString } from "react-dom/server";
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, mkdir, copyFile } from "node:fs/promises";
 
 // Ship real HTML to visitors and crawlers; React hydrates the interactions.
 const vite = await createServer({
@@ -14,6 +14,15 @@ try {
   await writeFile(
     "dist/index.html",
     html.replace("<!--app-html-->", renderToString(createElement(App))),
+  );
+  await mkdir("dist/licenses", { recursive: true });
+  await Promise.all(
+    ["dm-sans", "space-grotesk"].map((font) =>
+      copyFile(
+        `node_modules/@fontsource/${font}/LICENSE`,
+        `dist/licenses/${font}.txt`,
+      ),
+    ),
   );
 } finally {
   await vite.close();

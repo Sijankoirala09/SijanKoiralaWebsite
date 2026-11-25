@@ -18,6 +18,8 @@ for (const file of [
   "social-card.png",
   "robots.txt",
   "sitemap.xml",
+  "licenses/dm-sans.txt",
+  "licenses/space-grotesk.txt",
 ]) {
   await access(`dist/${file}`);
 }
